@@ -16,4 +16,4 @@ It shows the task which is assigned to employee.<br /><br />
 **Features:**<br />
 1. Sort elements<br />
 2. Drag and Drop Elements<br />
-
+3. 5 Tasks states "Creasted, Assigned, Work in Progress, Hold, Delivered, Completed"
