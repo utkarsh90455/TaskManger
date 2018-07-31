@@ -1,0 +1,241 @@
+
+.box-container {
+	height: 100%;
+	padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+ .glyphicon{
+	cursor: pointer;
+	color: white;
+}
+.glyphicon-remove-sign:hover{
+ color: #a4030b;
+}
+ .material-icons:hover{
+color: #a4030b;
+}
+#showtext{
+	display: none;
+	z-index: 99999;
+	opacity: 0.9;
+	position: absolute;
+}
+.box-item {
+	width: 100%;
+	z-index: 1000;
+	
+}
+
+.panel-title{
+	font-size: 15px;
+}
+.countstatus{
+	text-align: left;
+	float: right;
+}
+
+.mypanel{
+	 width: 20%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+    position: relative;
+}
+.tog{
+	display: none;
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+}
+.priority{
+	font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+}
+.mycol{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.mycontainer{
+	position: relative;
+	height: 100%;
+    overflow: auto;
+    max-height: 79vh;
+   margin-top: -5px;
+   
+}
+
+.modal.in .modal-dialog {
+	margin-top: 8%;
+}
+#container1{
+	 height: 100%;
+	 max-height: 72vh;
+	 overflow: auto;
+}
+.btn-name{
+	margin-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+.btn{
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	
+
+}
+.viewproject:hover{
+  color:black;
+}
+#messg{
+	position: absolute;
+	z-index: 99;
+	opacity: 0.9;
+	top: 90%;
+	left: 1%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: none;
+	width: 230px;
+	text-align: center;
+}
+.slide{
+	display: none;
+	font-size: 0.8em;
+	text-align: left;
+	margin-bottom: 0px;
+    padding-right: 0px;
+	padding-left: 7px;
+
+}
+.slide p{
+	display: block;
+	width: 100%;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f39ea2;
+    border-color: #f39ea2;
+}
+.btn-warning:hover{
+    color: #fff;
+    background-color:#f5878c;
+    border-color: #f39ea2;
+}
+.btn-warning.active.focus, .btn-warning.active:focus, .btn-warning.active:hover, .btn-warning:active.focus, .btn-warning:active:focus, .btn-warning:active:hover, .open>.dropdown-toggle.btn-warning.focus, .open>.dropdown-toggle.btn-warning:focus, .open>.dropdown-toggle.btn-warning:hover
+{
+ color: #fff;
+    background-color:#f5878c;
+    border-color: #f39ea2;
+}
+.alert-warning {
+    color: #f5878c;
+    background-color: #fbf0f1;
+    border-color: #f9dcdd;
+}
+.btn-WIP
+{   color: white;
+	background-color: #FFA500!important;
+}
+.btn-WIP:hover{
+	color: white;
+	background-color: #f29d00!important;
+	border:1px solid #FFA500;
+}
+.btn-hold{
+	color: white;
+	background-color: #C96651;
+}
+.btn-hold:hover{
+	color: white;
+	background-color: #bd614d;
+	}
+.alert-hold{
+	color: #C96651;
+	background-color: #faebe8;
+}
+.alert-WIP
+{    color: #FFA500!important;
+	background-color: #FFF4E0!important;
+}
+.scrollbar {
+	margin-left: 22px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+
+.force-overflow {
+	min-height: 450px;
+}
+
+#wrapper {
+	text-align: center;
+	margin: auto;
+}
+#main::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+#main::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #337ab7;
+}
+
+#main::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+#container1::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+#container1::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #337ab7;
+}
+
+#container1::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
