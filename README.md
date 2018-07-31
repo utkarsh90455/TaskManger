@@ -4,10 +4,10 @@ the state of task using dragging or droping element and it also supports priorit
 
 ##It is based on Jquery-ui-sortable library.
 
-##It has two views:
-##1. Manager View : For Creating Task and Assigning the task to employee.Manager has full control for changing task state using dragging.
-##1. Employee View : It shows the task which is assigned to employee.
+##It has two views:<br />
+##1. Manager View : For Creating Task and Assigning the task to employee.Manager has full control for changing task state using dragging.<br />
+##1. Employee View : It shows the task which is assigned to employee.<br />
 
-##Features:
-##Sort elements
-##Drag and Drop Elements
+##Features:<br />
+##Sort elements<br />
+##Drag and Drop Elements<br />
